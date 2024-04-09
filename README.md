@@ -2,7 +2,7 @@
 Fetch Bing Image Cookie to use at npm bing image
 
 ## Install Requirement
-### Termux
+### Termux (jika tidak support apt)
 ```bash
 pkg update && pkg upgrade
 pkg install git -y
@@ -13,7 +13,7 @@ cd bing-image-cookie
 npm install
 ```
 
-### Vps Ubuntu
+### Vps Ubuntu / Termux
 ```bash
 apt update && apt upgrade
 apt install git -y
